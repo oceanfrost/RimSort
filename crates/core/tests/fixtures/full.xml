@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name> Example Mod &amp; Tools </name>
+  <packageId> Author.Example </packageId>
+  <author>Fallback author</author>
+  <authors><li> Bob </li><li>Alice</li><li /></authors>
+  <description><![CDATA[Example description <b>label</b> & literal text]]></description>
+  <supportedVersions><li>1.5</li><li>1.6</li><li> </li></supportedVersions>
+  <modVersion>2.0</modVersion>
+  <url>https://example.test/mod</url>
+  <modDependencies><li>
+    <packageId> Brrainz.Harmony </packageId>
+    <displayName>Harmony</displayName>
+    <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    <downloadUrl>https://example.test/download</downloadUrl>
+  </li></modDependencies>
+  <loadBefore><li>Other.Before</li><li /></loadBefore>
+  <loadAfter><li>Other.After</li></loadAfter>
+  <forceLoadBefore><li>Other.ForceBefore</li></forceLoadBefore>
+  <forceLoadAfter><li>Other.ForceAfter</li></forceLoadAfter>
+  <incompatibleWith><li>Other.Conflict</li></incompatibleWith>
+  <customExtension><label>Extension data</label></customExtension>
+</ModMetaData>

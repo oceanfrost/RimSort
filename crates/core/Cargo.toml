@@ -1,0 +1,11 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+description = "UI-independent RimWorld mod metadata and identity primitives"
+publish = false
+
+[dependencies]
+quick-xml = { version = "0.41", features = ["serialize"] }
+serde = { version = "1", features = ["derive"] }

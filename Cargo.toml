@@ -1,3 +1,7 @@
+[workspace]
+members = ["crates/core"]
+resolver = "3"
+
 [package]
 name = "rimsort-rust"
 version = "0.1.0"
